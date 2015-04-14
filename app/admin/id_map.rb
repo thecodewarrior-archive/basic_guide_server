@@ -1,4 +1,5 @@
 ActiveAdmin.register IdMap do
+  permit_params :type, :id, :meta
 
 # See permitted parameters documentation:
 # https://github.com/activeadmin/activeadmin/blob/master/docs/2-resource-customization.md#setting-up-strong-parameters
